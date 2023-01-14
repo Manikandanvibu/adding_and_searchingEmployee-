@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: yellow;">
+    <h1 class="text-center " style="border: 10px; text-decoration: underline; text-decoration-color: brown;">ADD EMPLOYEEE</h1>
+    <div class="container border bg-light mt-5" style="background-color: aqua;">
+        <form style="background-color: antiquewhite;">
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" placeholder="name" ><br><br>
+
+            <label for="id1" class="ms-4">Id:</label>
+            <input type="text" id="id1" ><br><br>
+
+            <label for="desig">Designation:</label>
+            <input type="text" id="desig"><br><br>
+
+            <label for="salarys">Salary:</label>
+            <input type="text" id="salarys"><br><br>
+            
+            <label for="exp">Experience:</label>
+            <input type="text" id="exp"><br><br>
+            
+            <button type="button" onclick="addemploye()">ADD</button>
+        </form>
+    </div>
+    <h1 class="text-center p-5" style="border: 10px; text-decoration: underline;text-decoration-color: brown;">SEARCH EMPLOYEE</h1>
+
+
+    <div class="mb-5 text-center">
+        <input type="text" style="padding-left: 60px;" id="searching">
+        <button type="button" onclick="searched()">SEARCH</button>
+    </div>
+
+    <div class="container p-5 text-center text-decoration-underline fs-4" style="width: 100%;height: auto; background-color: blanchedalmond;" id="result">
+
+    </div>
+</body>
+<script src="emp.js">
+
+</script>
+</html>
